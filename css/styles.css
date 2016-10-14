@@ -97,42 +97,66 @@ li {
 
 }
 
-/*section {
-
-	margin: 80px auto 40px;
-	max-width: 980px;
-	position: relative;
-	padding: 20px
-
-}
- */
-
 .home-section{
 	background: #2F677C;
 	color:#ffffff;
-	 font-family: "EB Garamond";
-	 font-weight: 400;
-	 font-style: normal;
-	 font-size: 56px;
-	 line-height: 60px;	
-	height:60vh;
-	padding-top: 20%;
+	font-family: "EB Garamond";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 56px;
+	line-height: 60px;	
+	height:50vh;
+	padding-top: 15%;
 	position: relative;
 	text-align: center;
 	width:100%;
 
 }
-.medical-section{
+.health-section{
 	background: #5c86b5;
-	color:#000000;
+	color:#ffffff;
 	height:80vh;
 	position: relative;
 	width:100%;
 	 font-family: "EB Garamond";
 	 font-weight: 400;
 	 font-style: normal;
-	 font-size: 56px;
-	 line-height: 60px;
+	 font-size: 40px;
+	 line-height: 40px;
+	height:50vh;
+	padding-top: 5%;
+	padding-right: 10%;
+	text-align: center;
+	width:100%;
+}
+.education-section{
+	background: #5fad7a;
+	color:#ffffff;
+	height:80vh;
+	position: relative;
+	width:100%;
+	 font-family: "EB Garamond";
+	 font-weight: 400;
+	 font-style: normal;
+	 font-size: 40px;
+	 line-height: 40px;
+	height:50vh;
+	padding-top: 5%;
+	padding-right: 10%;
+	text-align: center;
+	width:100%;
+}
+.humanitarian-section{
+	background: #ad7550;
+	color:#ffffff;
+	height:80vh;
+	position: relative;
+	width:100%;
+	 font-family: "EB Garamond";
+	 font-weight: 400;
+	 font-style: normal;
+	 font-size: 40px;
+	 line-height: 40px;
 	height:50vh;
 	padding-top: 5%;
 	padding-right: 10%;
@@ -154,6 +178,19 @@ p {
 	margin-bottom: 20px;
 
 }
+copyright-font{
+	color:#444;
+	line-height: 1.15em;
+	font-size: 0.75em;
+}
+ footer {
+            background-color: #ffffff;
+            bottom: 0;
+            padding: 10px 0 ;
+            position: relative;
+            text-align: center;
+            width: 100%;
+        }
 
 /*MEDIA QUERY*/
 @media only screen and (max-width : 640px) {
