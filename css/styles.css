@@ -96,7 +96,7 @@ li {
 	color: #2262AD;
 
 }
-
+/* home section */
 .home-section{
 	background: #2F677C;
 	color:#ffffff;
@@ -112,6 +112,7 @@ li {
 	width:100%;
 
 }
+/* health section */
 .health-section{
 	background: #5c86b5;
 	color:#ffffff;
@@ -129,6 +130,11 @@ li {
 	text-align: center;
 	width:100%;
 }
+/*.img-health {
+    width: 100%;
+    height: auto;
+} */
+/* education section */
 .education-section{
 	background: #5fad7a;
 	color:#ffffff;
@@ -146,6 +152,7 @@ li {
 	text-align: center;
 	width:100%;
 }
+/* humanitarian section */
 .humanitarian-section{
 	background: #ad7550;
 	color:#ffffff;
@@ -235,3 +242,25 @@ copyright-font{
 		display: block;
 
 	}
+.home-section{
+	font-size: 40px;
+	height:100%;
+	line-height: 40px;
+	padding:30% 0 10% 0;
+}
+.health-section{
+	font-size: 35px;
+	height:100%;
+	padding:10% 0;
+}
+.education-section{
+	font-size: 35px;	
+	height:100%;
+	padding:10% 0;
+}
+.humanitarian-section{
+	font-size: 35px;	
+	height:100%;
+	padding:10% 0;
+}
+}
